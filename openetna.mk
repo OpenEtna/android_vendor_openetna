@@ -2,6 +2,8 @@ PRODUCT_PACKAGES := \
  	GoogleSubscribedFeedsProvider \
 	Stk \
 	Superuser \
+    libRS \
+    librs_jni \
     framework-res \
     Browser \
     Contacts \
@@ -40,7 +42,8 @@ PRODUCT_PACKAGES := \
     Updater \
     CalendarProvider \
     SyncProvider \
-	SoundRecorder
+	SoundRecorder \
+    LiveWallpapersPicker
 
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core.mk)
