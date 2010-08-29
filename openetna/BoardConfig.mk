@@ -7,7 +7,7 @@ TARGET_CPU_ABI := armeabi
 
 #Or else libcameraservice will complain about missing libcamera.so
 #USE_CAMERA_STUB := true
-
+BOARD_USES_OLD_CAMERA_HACK := true
 #BOARD_USES_GENERIC_AUDIO := true
 
 #Commented this because it has influence on audio
