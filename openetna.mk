@@ -1,3 +1,6 @@
+#Enable Windows Media if supported by the board
+WITH_WINDOWS_MEDIA:=true
+
 PRODUCT_PACKAGES := \
  	GoogleSubscribedFeedsProvider \
 	Stk \
@@ -57,4 +60,4 @@ PRODUCT_BRAND := openetna
 #out/target/product/openetna/obj/lib/libcamera.so: out/target/product/openetna/system/lib/libcamera.so
 #	cp out/target/product/openetna/system/lib/libcamera.so out/target/product/openetna/obj/lib/libcamera.so
 
-#PRODUCT_COPY_FILES := vendor/openetna/libcamera.so:system/lib/libcamera.so
+PRODUCT_COPY_FILES := vendor/openetna/qwerty.kl:system/usr/keylayout/qwerty.kl
