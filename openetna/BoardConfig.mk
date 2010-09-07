@@ -13,22 +13,6 @@ BOARD_USES_OLD_CAMERA_HACK := true
 #Commented this because it has influence on audio
 #BOARD_HAVE_BLUETOOTH := true
 
-#include stub directory
-FRAMEWORKS_BASE_SUBDIRS := \
-    $(addsuffix /java, \
-        core \
-        graphics \
-        location \
-        media \
-        opengl \
-        sax \
-        telephony \
-        wifi \
-        vpn \
-        keystore \
-        stub \
-     )
-
 TARGET_BOARD_PLATFORM:= msm7k
 
 BOARD_WPA_SUPPLICANT_DRIVER := WEXT
