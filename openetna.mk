@@ -61,3 +61,5 @@ PRODUCT_BRAND := openetna
 #	cp out/target/product/openetna/system/lib/libcamera.so out/target/product/openetna/obj/lib/libcamera.so
 
 PRODUCT_COPY_FILES := vendor/openetna/qwerty.kl:system/usr/keylayout/qwerty.kl
+#libspeech from cyanogen "update-cm-5.0.8-DS-signed.zip"
+PRODUCT_COPY_FILES += vendor/openetna/libspeech.so:system/lib/libspeech.so
