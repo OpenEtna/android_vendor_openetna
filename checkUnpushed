@@ -1,1 +1,3 @@
+repo forall -c 'git branch eclair --set-upstream github/eclair'
 repo forall -c 'git status | grep ahead && echo at `pwd`'
+repo forall -c 'git status | grep diverged && echo at `pwd`'
