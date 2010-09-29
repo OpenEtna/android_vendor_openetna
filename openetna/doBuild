@@ -4,5 +4,5 @@ export USE_CCACHE=1
 ./prebuilt/linux-x86/ccache/ccache -M 2G
 
 . build/envsetup.sh
-choosecombo 1 1 openetna eng
+lunch cyanogen_openetna-eng
 time make -j3
